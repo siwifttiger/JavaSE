@@ -10,6 +10,14 @@ public class Employee
     private Date hireDay;
     private int id;
     
+    
+    public Employee()
+    {
+    	
+    }
+    
+   
+    
     public Employee(String n, double s, int year, int month, int day)
     {
         name = n;
