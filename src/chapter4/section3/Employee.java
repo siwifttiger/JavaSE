@@ -8,7 +8,7 @@ public class Employee
     private String name;
     private double salary;
     private Date hireDay;
-    private int id;
+   int id;
     
     
     public Employee()
