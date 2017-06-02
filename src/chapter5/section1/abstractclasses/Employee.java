@@ -6,7 +6,7 @@ import java.util.GregorianCalendar;
 public class Employee extends Person {
 
 	private double salary;
-	Date hireDay;
+	private Date hireDay;
 	
 	
 	public Employee(String name, double salary, int year, int month, int day)

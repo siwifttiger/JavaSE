@@ -1,6 +1,7 @@
 package chapter5.section1;
 
 public class ManagerTest {
+	
 	public static void main(String[] args)
 	{
 		
@@ -9,6 +10,7 @@ public class ManagerTest {
 		
 		Employee[] staff = new Employee[3];
 		
+		
 		staff[0] = boss;
 		staff[1] = new Employee("Harry Hacker",50000,2008,10,1);
 		staff[2] = new Employee("Tommy Tester",40000,2009,11,22);
@@ -16,4 +18,5 @@ public class ManagerTest {
 		for(Employee e : staff)
 			System.out.println("name="+e.getName() + " ,salary=" + e.getSalary());
 	}
+	
 }
